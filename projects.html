@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ariana Hanaei</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="skills.html">Skill Sets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container my-5">
+            <h2 class="text-center mb-4">My Projects</h2>
+
+            <!-- Accordion for Projects -->
+            <div class="accordion custom-accordion" id="projectsAccordion">
+
+                <!-- Project 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button brown-header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Music Recommendation Application</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <p>
+                                One of my recent challenging projects involved creating a music recommendation application using Python and a Spotify dataset. My team and I developed an algorithm to generate song recommendations based on user input, including preferences like danceability, popularity, genre, and artist. The application created personalized playlists by aligning user preferences with the data.
+                            </p>
+                            <p>
+                                One challenge we tackled was converting technical variables into more user-friendly terms. For example, we transformed the danceability metric from a 0-1.0 scale to a 1-100 scale to improve usability. This project taught me valuable lessons about both the technical and user-experience aspects of building an application.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed brown-header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Database Design and Implementation</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <p>
+                                For a project in my databases course, my team and I worked on designing and implementing a database for a company based on a detailed case study.
+                            </p>
+                            <ul>
+                                <li><strong>Conceptual Design:</strong> Identified key entities and relationships and created an entity relationship diagram as a blueprint.</li>
+                                <li><strong>Logical Design:</strong> Normalized the data to reduce redundancy and ensure accuracy by organizing attributes and relationships into structured tables.</li>
+                                <li><strong>Physical Implementation:</strong> Built and tested the database in Microsoft SQL Server, ensuring functionality and performance.</li>
+                            </ul>
+                            <p>
+                                This project helped me understand the importance of a well-structured database and careful planning to solve complex problems effectively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed brown-header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>Personal Website</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <p>
+                                I am currently working on creating my personal website using HTML and CSS, hosted on GitHub Pages. This project allows me to showcase my skills, projects, and accomplishments in a professional and visually appealing way. It has helped me develop my web development skills while learning how to present my work effectively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-3">
+        <p>© 2024 Ariana Hanaei | Designed with 💖</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+﻿/* General Styling */
+body {
+    font-family: 'Playfair Display', serif; /* Mimic the elegant font */
+    margin: 0;
+    padding: 0;
+    color: #6e3034; /* Rich brownish red */
+    background-color: #fef0ef; /* Light pinkish background */
+    text-align: center;
+}
+
+/* Navigation Bar */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+    .top-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 2rem;
+    }
+
+        .top-nav ul li {
+            display: inline;
+        }
+
+            .top-nav ul li a {
+                text-decoration: none;
+                color: #6e3034;
+                font-size: 1.2rem;
+                font-weight: bold;
+                transition: color 0.3s ease;
+            }
+
+                .top-nav ul li a:hover,
+                .top-nav ul li a.active {
+                    color: #d96459; /* Softer red highlight */
+                }
+
+/* Studio Title */
+.studio-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    color: #6e3034;
+    letter-spacing: 0.1rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffe7e6; /* Slightly darker pink */
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+    .hero-content .logo h2 {
+        font-size: 3rem;
+        color: #6e3034;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-content .subtitle {
+        font-size: 1.5rem;
+        color: #d96459; /* Softer red accent */
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-content .description {
+        font-size: 1rem;
+        line-height: 1.8;
+        color: #6e3034;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-content .cta-button {
+        text-decoration: none;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #d96459;
+        padding: 0.8rem 2rem;
+        border-radius: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+        .hero-content .cta-button:hover {
+            background-color: #6e3034; /* Richer red on hover */
+        }
+
+/* Footer */
+footer {
+    background-color: #ffe7e6;
+    color: #6e3034;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+    .footer-icons .social-icon {
+        font-size: 1.5rem;
+        color: #6e3034;
+        transition: color 0.3s ease;
+    }
+
+        .footer-icons .social-icon:hover {
+            color: #d96459;
+        }
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef0ef; /* Light pink background */
+    color: #6e3034; /* Deep pinkish-brown text */
+    text-align: center;
+}
+
+/* Card Styling */
+.skill-card {
+    background-color: rgba(210, 180, 140, 0.7); /* Light transparent brown */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .skill-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+/* Card Title Styling */
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #6e3034; /* Deep pinkish-brown */
+    margin-bottom: 1rem;
+}
+
+/* Custom Bullets */
+.custom-bullets li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+    .custom-bullets li::before {
+        content: "•"; /* Cute clover bullet */
+        position: absolute;
+        left: 0;
+        color: #d96459; /* Soft red bullet color */
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+
+/* Footer */
+footer {
+    background-color: #ffe7e6; /* Light pink footer */
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #6e3034;
+}
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef0ef; /* Light pink background */
+    color: #6e3034; /* Deep pinkish-brown text */
+    text-align: center;
+}
+
+/* Accordion Customization */
+.custom-accordion .accordion-item {
+    border: none;
+    background-color: rgba(210, 180, 140, 0.7); /* Light transparent brown */
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-accordion .accordion-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6e3034; /* Deep brownish text */
+    background-color: rgba(210, 180, 140, 0.7); /* Light transparent brown */
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: left;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+    .custom-accordion .accordion-button:hover {
+        background-color: rgba(210, 180, 140, 0.9); /* Slightly darker brown on hover */
+    }
+
+.custom-accordion .accordion-collapse {
+    background-color: rgba(250, 235, 215, 0.9); /* Light beige for content background */
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.custom-accordion .accordion-body {
+    font-size: 1rem;
+    color: #6e3034; /* Deep pinkish-brown */
+}
+
+/* Footer */
+footer {
+    background-color: #ffe7e6; /* Light pink footer */
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #6e3034;
+}
